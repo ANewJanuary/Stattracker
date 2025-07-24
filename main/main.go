@@ -1,11 +1,8 @@
 package main
 
-import "fmt"
-
-import "rsc.io/quote"
-
-import "github.com/ANewJanuary/Stattracker"
+import (
+	"github.com/ANewJanuary/Stattracker/funcs"
+)
 
 func main() {
-	fmt.Println(quote.Go())
 }
